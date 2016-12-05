@@ -1,0 +1,60 @@
+{
+  "name": "fie-plugin-ut",
+  "version": "0.1.0",
+  "description": "unit test environment generator for both browsers and nodejs",
+  "main": "index.js",
+  "fieOption": {
+    "icon": "",
+    "type": "plugin",
+    "update": false,
+    "moduleName": "fie-plugin-ut"
+  },
+  "author": {
+    "name": "zincli",
+    "email": "fly-lx@163.com"
+  },
+  "maintainers": [
+    {
+      "name": "zincli",
+      "email": "fly-lx@163.com"
+    }
+  ],
+  "changeLog": [
+    {
+      "version": "0.1.0",
+      "log": []
+    }
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cross-spawn": "^4.0.0",
+    "lodash": "^4.13.1",
+    "strip-json-comments": "^2.0.1",
+    "yeoman-environment": "^1.6.1",
+    "yeoman-generator": "^0.23.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "~2.7.0",
+    "fs-extra": "^1.0.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.4",
+    "supertest": "^2.0.1",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.5.1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:fie/fie-plugin-ut.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js'",
+    "test-ci": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js' && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf ./coverage"
+  },
+  "keyword": []
+}
