@@ -61,7 +61,7 @@ function readFieConfigAdapter(cwd) {
   let result;
 
   try {
-    result = require(path.resolve(cwd, './fie.config')).ci.getWebpackConfig();
+    result = require(path.resolve(cwd, './fie.config')).ut.getWebpackConfig();
   } catch (e) {
 
   }

@@ -24,7 +24,7 @@ var Commands = {
       } else {
         // 设置默认的 fie test 命令
         fie.setModuleConfig('tasks.test', [
-          {command: 'fie ci test'}
+          {command: 'fie ut test'}
         ]);
 
         fie.logSuccess('脚手架展开完毕');
@@ -62,12 +62,11 @@ var Commands = {
 
     var help = [
       '',
-      'fie-plugin-ci 插件使用帮助:',
-      ' $ fie ci init [type]           生成单测环境配置文件, type有browser和node两种',
-      ' $ fie ci cise                  开启gitlab的CISE服务, 提交代码后自动执行CI任务',
-      ' $ fie ci add caseName          添加用例文件, caseName可以带目录, 例如 lib/foo',
-      ' $ fie ci test                  执行测试',
-      ' $ fie ci help                  查看帮助信息',
+      'fie-plugin-ut 插件使用帮助:',
+      ' $ fie ut init [type]           生成单测环境配置文件, type有browser和node两种',
+      ' $ fie ut add caseName          添加用例文件, caseName可以带目录, 例如 lib/foo',
+      ' $ fie ut test                  执行测试',
+      ' $ fie ut help                  查看帮助信息',
       '',
       '关于 fie-plugin-ci 插件的配置可查看: http://fie.alibaba.net/doc2/plugin?name=@ali/fie-plugin-ci',
       '',
@@ -91,6 +90,10 @@ module.exports = function(fie, options) {
   var commandMethod = options.clientArgs.splice(0, 1).pop() || '';
 
   options.callback = options.callback || function() {};
+
+  if (!commandMethod) {
+    Commands.test(fie, options);
+  }
 
   if (Commands[commandMethod]) {
     Commands[commandMethod](fie, options);
