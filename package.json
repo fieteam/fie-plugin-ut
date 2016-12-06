@@ -50,7 +50,7 @@
     "url": "git@github.com:fieteam/fie-plugin-ut.git"
   },
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/mocha -- -t 600000 --opts test/mocha.opts './test/**/*-spec.js'"
+    "test": "istanbul cover node_modules/mocha/bin/mocha -- -t 600000 --opts test/mocha.opts"
   },
   "keyword": [
     "fie-plugin",
