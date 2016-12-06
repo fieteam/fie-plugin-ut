@@ -1,7 +1,7 @@
 # fie-plugin-ut
 
 [![npm](https://img.shields.io/npm/v/fie-plugin-ut.svg?style=flat-square)](https://www.npmjs.com/package/fie-plugin-ut)
-[![npm](https://img.shields.io/npm/fie-plugin-ut/express.svg?style=flat-square)](https://www.npmjs.com/package/fie-plugin-ut)
+[![npm](https://img.shields.io/npm/dt/fie-plugin-ut.svg?style=flat-square)](https://www.npmjs.com/package/fie-plugin-ut)
 
 | travis | appver (windows) | codecov |
 | ------ | ---------------- | ------- |
