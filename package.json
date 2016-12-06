@@ -1,6 +1,6 @@
 {
   "name": "fie-plugin-ut",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "unit test environment generator for both browsers and nodejs",
   "main": "index.js",
   "fieOption": {
