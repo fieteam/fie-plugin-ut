@@ -4,7 +4,7 @@ const helpers = require('yeoman-test');
 const assert = require('yeoman-assert');
 const fs = require('fs-extra');
 const path = require('path');
-const spawn = require('cross-spawn').sync;
+const spawn = require('cross-spawn');
 
 const app = path.join(__dirname, '../generators/app');
 
