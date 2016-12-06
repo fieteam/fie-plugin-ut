@@ -1,9 +1,12 @@
 # fie-plugin-ut
 
-travis: [![Build Status](https://travis-ci.org/fieteam/fie-plugin-ut.svg?branch=master)](https://travis-ci.org/fieteam/fie-plugin-ut)
-appver: [![Build status](https://ci.appveyor.com/api/projects/status/6r70s0tp0w96jvtr/branch/master?svg=true)](https://ci.appveyor.com/project/zincli/fie-plugin-ut/branch/master)
+[![npm](https://img.shields.io/npm/v/fie-plugin-ut.svg?style=flat-square)](https://www.npmjs.com/package/fie-plugin-ut)
+[![npm](https://img.shields.io/npm/fie-plugin-ut/express.svg?style=flat-square)](https://www.npmjs.com/package/fie-plugin-ut)
 
-[![codecov](https://codecov.io/gh/fieteam/fie-plugin-ut/branch/master/graph/badge.svg)](https://codecov.io/gh/fieteam/fie-plugin-ut)
+| travis | appver (windows) | codecov |
+| ------ | ---------------- | ------- |
+| [![Travis branch](https://img.shields.io/travis/fieteam/fie-plugin-ut/master.svg?style=flat-square)](https://travis-ci.org/fieteam/fie-plugin-ut) | [![Build status](https://ci.appveyor.com/api/projects/status/6r70s0tp0w96jvtr/branch/master?svg=true&style=flat-square)](https://ci.appveyor.com/project/zincli/fie-plugin-ut/branch/master) | [![Codecov branch](https://img.shields.io/codecov/c/github/fieteam/fie-plugin-ut/master.svg?style=flat-square)](https://codecov.io/gh/fieteam/fie-plugin-ut) |
+
 
 ## 说明
 
