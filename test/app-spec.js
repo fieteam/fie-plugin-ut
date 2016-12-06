@@ -136,7 +136,7 @@ describe('yo ut', () => {
     });
   });
 
-  describe.only('node', () => {
+  describe('node', () => {
     describe('environment', () => {
       let cwd;
 

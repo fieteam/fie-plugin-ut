@@ -1,5 +1,10 @@
 # fie-plugin-ut
 
+travis: [![Build Status](https://travis-ci.org/fieteam/fie-plugin-ut.svg?branch=master)](https://travis-ci.org/fieteam/fie-plugin-ut)
+appver: [![Build status](https://ci.appveyor.com/api/projects/status/6r70s0tp0w96jvtr/branch/master?svg=true)](https://ci.appveyor.com/project/zincli/fie-plugin-ut/branch/master)
+
+[![codecov](https://codecov.io/gh/fieteam/fie-plugin-ut/branch/master/graph/badge.svg)](https://codecov.io/gh/fieteam/fie-plugin-ut)
+
 ## 说明
 
 生成单测环境，支持`browser`和`nodejs`。
@@ -113,4 +118,3 @@ $ npm test
 目前还没有找到非常好的中文资源，大家有相关好文请在issue里推荐，我们会更新到文档里。
 
 后续也会考虑开始写系列化的单测教程。
-
