@@ -110,7 +110,7 @@ describe('yo ut', () => {
           .withArguments('browser')
           .toPromise()
           .then(() => {
-            assert.fileContent('package.json', /"test":\s"\.\/node_modules\/\.bin\/karma\s.*/);
+            assert.fileContent('package.json', /"test":\s"karma\s.*/);
             done();
           })
           .catch(done);
