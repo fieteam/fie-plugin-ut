@@ -93,6 +93,7 @@ module.exports = function(fie, options) {
 
   if (!commandMethod) {
     Commands.test(fie, options);
+    return;
   }
 
   if (Commands[commandMethod]) {

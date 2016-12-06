@@ -45,16 +45,19 @@
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.5.1"
   },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:fie/fie-plugin-ut.git"
+    "url": "git@github.com:fieteam/fie-plugin-ut.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js'",
     "test-ci": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js' && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf ./coverage"
   },
-  "keyword": []
+  "keyword": [
+    "fie-plugin",
+    "karma",
+    "react",
+    "webpack"
+    "unit test"
+  ]
 }

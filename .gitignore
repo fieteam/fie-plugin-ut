@@ -1,71 +1,9 @@
-node_modules/
-.travis.yml
+node_modules
 *.swp
 .sass-cache/
 mods/.sass-cache/
 .DS_Store
 .idea
-bower_components/# coverage dir
-coverage
-# eslint reports
-eslint.json
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
-# coverage dir
-coverage
+bower_components/
 # coverage dir
 coverage
