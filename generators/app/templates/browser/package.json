@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "./node_modules/.bin/karma start --hostname localhost"
+    "test": "karma start --hostname localhost"
   },
   "devDependencies": {
     "babel-plugin-__coverage__": "^1.11.111",
