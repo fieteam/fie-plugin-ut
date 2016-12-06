@@ -1,3 +1,6 @@
+# 测试用临时目录
+test/tmp/
+
 node_modules
 *.swp
 .sass-cache/
