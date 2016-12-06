@@ -54,7 +54,7 @@ describe('yo ut', () => {
       });
 
       it('正确配置时, 应该能跑通测试', (done) => {
-        const p = spawn('npm', ['run', 'test', '--', '--single-run'], { cwd, stdio: 'inherit' });
+        const p = spawn('npm', ['run', 'test', '--', '--single-run', '--browsers', 'PhantomJS'], { cwd, stdio: 'inherit' });
 
         p.on('close', (code) => {
           if (code === 0) {

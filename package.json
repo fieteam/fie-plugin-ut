@@ -39,7 +39,9 @@
     "eslint": "~2.7.0",
     "fs-extra": "^1.0.0",
     "istanbul": "^0.4.4",
+    "karma-phantomjs-launcher": "^1.0.2",
     "mocha": "^3.1.2",
+    "phantomjs-prebuilt": "^2.1.13",
     "sinon": "^1.17.4",
     "supertest": "^2.0.1",
     "yeoman-assert": "^2.2.1",
@@ -50,8 +52,7 @@
     "url": "git@github.com:fieteam/fie-plugin-ut.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js'",
-    "test-ci": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js' && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf ./coverage"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -t 600000 --opts test/mocha.opts 'test/**/*-spec.js'"
   },
   "keyword": [
     "fie-plugin",
