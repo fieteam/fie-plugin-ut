@@ -57,7 +57,7 @@
     "fie-plugin",
     "karma",
     "react",
-    "webpack"
+    "webpack",
     "unit test"
   ]
 }
